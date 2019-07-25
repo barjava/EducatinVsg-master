@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soal.HasilActivity"
+    android:padding="30dp"
+    android:background="#3013B3D8">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="281dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Jawaban anda benar!"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#13B3D8"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <Button
+            android:layout_width="141dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="40dp"
+            android:background="#10000000"
+            android:onClick="cobalagi"
+            android:text="Coba lagi"
+            android:textColor="#13B3D8"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/button"
+            app:layout_constraintTop_toBottomOf="@+id/text" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="40dp"
+            android:background="#10000000"
+            android:text="Selesai"
+            android:textColor="#13B3D8"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text"
+            android:onClick="selesai"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

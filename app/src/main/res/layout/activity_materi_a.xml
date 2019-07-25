@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Materi.MateriA_Activity"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Materi 1"
+        android:textAlignment="center"
+        android:textColor="#13B3D8"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="51dp" />
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Mobile Cellular Network"
+        android:textAlignment="center"
+        android:textColor="#13B3D8"
+        android:textSize="50sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:layout_editor_absoluteX="24dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Mobile cellular network adalah jaringan nirkabel (wireless / tanpa kabel) yang terbagi di dalam beberapa daerah bernama “cell” yang masing-masing terdapat paling tidak 1 buah antenna transceiver, namun normalnya terdapat 3 buah antenna per cell. Antenna ini berfungsi untuk transmisi suara, data, dan konten lain dalam tiap cell. Setiap cell umumnya memiliki frekuensi yang berbeda-beda untuk menghindari tabrakan data."
+        android:textColor="#13B3D8"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/judul"
+        tools:layout_editor_absoluteX="24dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
